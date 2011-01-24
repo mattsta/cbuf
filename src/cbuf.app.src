@@ -1,0 +1,13 @@
+{application, cbuf,
+ [
+  {description, "Erlang Circular List/Buffer using ETS"},
+  {vsn, "1.0.0"},
+  {modules, []},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
+
